@@ -12,7 +12,7 @@ public class App {
       ninja_turtles.push("Raphael");
   
       // Show the size of the stack
-      System.out.println("The Brawn of the Team: " + ninja_turtles.size());
+      System.out.println("Teenage Mutant Ninja Turtles " + ninja_turtles.size());
   
       // Show top element in the stack
       System.out.println("The Leader of the Team: " + ninja_turtles.peek());
