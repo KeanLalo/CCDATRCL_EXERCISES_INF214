@@ -6,16 +6,16 @@ public class App {
       Stack ninja_turtles = new Stack(5);
   
       // Insert new elements into the stack
-      ninja_turtles.push("Leonardo");
-      ninja_turtles.push("Donatello");
-      ninja_turtles.push("Raphael");
       ninja_turtles.push("MichaelAngelo");
+      ninja_turtles.push("Donatello");
+      ninja_turtles.push("Leonardo");
+      ninja_turtles.push("Raphael");
   
       // Show the size of the stack
-      System.out.println("The size of the stack is: " + ninja_turtles.size());
+      System.out.println("The Brawn of the Team: " + ninja_turtles.size());
   
       // Show top element in the stack
-      System.out.println("The top of the stack is: " + ninja_turtles.peek());
+      System.out.println("The Leader of the Team: " + ninja_turtles.peek());
   
       // Remove top element in the stack
       ninja_turtles.pop();
@@ -26,6 +26,6 @@ public class App {
       ninja_turtles.printStack();
   
       // Show top element in the stack
-      System.out.println("The top of the stack is: " + ninja_turtles.peek());
+      System.out.println("The Leader of the Team: " + ninja_turtles.peek());
     }
   }
