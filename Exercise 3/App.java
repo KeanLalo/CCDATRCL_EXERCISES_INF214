@@ -3,13 +3,14 @@ public class App {
     public static void main(String[] args) {
   
       // Create new Stack Object
-      Stack ninja_turtles = new Stack(5);
+      Stack ninja_turtles = new Stack(6);
   
       // Insert new elements into the stack
       ninja_turtles.push("MichaelAngelo");
       ninja_turtles.push("Donatello");
-      ninja_turtles.push("Leonardo");
       ninja_turtles.push("Raphael");
+      ninja_turtles.push("Leonardo");
+      ninja_turtles.push("Splinter");
   
       // Show the size of the stack
       System.out.println("Teenage Mutant Ninja Turtles " + ninja_turtles.size());
