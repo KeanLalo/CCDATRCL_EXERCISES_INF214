@@ -19,5 +19,4 @@ public class Character {
         System.out.println("My intelligence is " + intelligence);
     }   
         
-    
-}
+    }
