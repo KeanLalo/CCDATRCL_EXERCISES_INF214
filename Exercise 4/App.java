@@ -1,26 +1,42 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class App {
+
     public static void main(String[] args) {
-        Queue HotelReservation = new Queue(10);
+        Queue<String> ClassList = new LinkedList<>();
 
-        // // Adds elements to the queue
-        HotelReservation.add("Neil");
-        HotelReservation.add("Lawrence");
-        HotelReservation.add("Mariel");
-        HotelReservation.add("Jane");
-        System.out.println(HotelReservation.size());
-        // Display all elements of the queue.
-        HotelReservation.printQueue();
+        // Enqueue 5 classmates
+        ClassList.add("Kean Jerald I. Lalo");
+        ClassList.add("Kean John Daptilio");
+        ClassList.add("James Francis Jalalon");
+        ClassList.add("Carlos Leslie Legaspi");
+        ClassList.add("Jenina Velle Masangcay");
 
-        // Removes the element at the front of the queue
-        HotelReservation.remove();
+        // get size of the queue
+        System.out.println(ClassList.size());
 
-        // Returns the number of elements in the queue.
-        System.out.println(HotelReservation.size());
+        // get front of the queue
+        System.out.println(ClassList.peek());
 
-        // Shows the element at the front of the queue
-        System.out.println(HotelReservation.peek());
+        // dequeue 5 class mates
+        ClassList.remove();
+        ClassList.remove();
+        ClassList.remove();
+        ClassList.remove();
+        ClassList.remove();
+       
+        // enqueue another 5 classmates
+        ClassList.add("Jul Seth Mari Mercado");
+        ClassList.add("J-Rhyzz Tanghal");
+        ClassList.add("Tristan Angelo Teneferie");
+        ClassList.add("Gavin Kyle Torres");
+        ClassList.add("Ma. Teresa Jesmari Erl Labon");
 
-        // Display all elements of the queue.
-        HotelReservation.printQueue();
+        // display all elements of the queue.
+        System.out.println(ClassList.size());
+
+        //get front of the queue
+        System.out.println(ClassList.peek());
     }
 }
